@@ -20,4 +20,10 @@
 			<version>1.3.2.RELEASE</version>
 		</dependency>
 	</dependencies>
+	<repositories>
+      <repository>
+         <id>localrepository</id>
+         <url>file://${basedir}/../../repo</url>
+      </repository>
+   </repositories>
 </project>
